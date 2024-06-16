@@ -34,7 +34,7 @@ def block_to_block_type(block):
     
   if lines[0].startswith("- ") or lines[0].startswith("* "):
     for line in lines:
-      if not (lines[0].startswith("- ") or lines[0].startswith("* ")):
+      if not (line.startswith("- ") or line.startswith("* ")):
         return block_type_paragraph
       return block_type_ulist
     
