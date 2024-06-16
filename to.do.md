@@ -1,6 +1,6 @@
 ## immediate tasks - chores, features, defects
 
-- review their solution and see if any other things I did not consider
+- fix test discovery which is broken when moved markdown into module - check what is needed for moduel setup
 
 ## consider limitations
 
