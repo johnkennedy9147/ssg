@@ -13,7 +13,7 @@ def  markdown_to_blocks(markdown):
   for block in blocks:
     if block == "":
       continue
-    filtered_blocks.append(block.strip())
+    filtered_blocks.append(block.lstrip().rstrip("\n"))
   return filtered_blocks
 
 def block_to_block_type(block):
