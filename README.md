@@ -8,3 +8,15 @@ Two modules
 
 - markdown parser
 -
+
+### Run the project
+
+```bash
+./main.sh
+```
+
+### Run the tests
+
+```bash
+./test.sh
+```
