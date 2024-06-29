@@ -1,7 +1,10 @@
-from textnode import TextNode
+from copystatic import copy_static
+
 
 def main():
-  test_node = TextNode('bob', 'bold', 'not a url')
-  print(repr(test_node))  
-  
+    print(f"Running main...")
+    copy_static("static", "public")
+    print(f"Main completed successfully.")
+
+
 main()
