@@ -1,12 +1,13 @@
 ## immediate tasks - chores, features, defects
 
-- fix test discovery which is broken when moved markdown into module - check what is needed for moduel setup
+- write tests for generate page and recursive generate pages etc
 
 ## consider limitations
 
 - all blocks must be seperated by 2 newlines
 - multiple levels of nesting
   eg this is **bold text with nested _italic_ text**
+- we dont support italic notation with underscore
 
 ## future tasks
 
