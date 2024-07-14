@@ -1,6 +1,7 @@
 ## immediate tasks - chores, features, defects
 
 - write tests for generate page and recursive generate pages etc
+- fix css broken except for root page
 
 ## consider limitations
 
